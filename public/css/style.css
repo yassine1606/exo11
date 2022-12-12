@@ -1,0 +1,121 @@
+body {
+    background-color: rgba(12, 18, 44, 255);
+}
+
+main {
+    background-image: url("../../images/bg-desktop.png");
+    background-repeat: no-repeat;
+    background-position-y: 100%;
+    height: 100vh;
+}
+
+#s1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+
+#d1 {
+    border-radius: 15px 50px 30px 5px;
+    height: 25vh;
+    width: 25vw;
+    background-color: rgba(30, 44, 105, 255);
+}
+
+#all1 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+}
+
+.i1 {
+    margin-top: 20px;
+    background-color: rgba(9, 13, 43, 255);
+    border: 3px solid rgba(9, 13, 43, 255);
+    height: 40px;
+    width: 40px;
+    border-radius: 20%;
+}
+
+#d2 {
+    width: 50vw;
+    background-color: rgba(30, 44, 105, 255);
+    height: 20vh;
+    margin-left: 2%;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#file {
+    width: 30vw;
+    color: orange;
+}
+
+#sp1 {
+    margin-left: 25vw;
+}
+
+#abs {
+    position: absolute;
+    background-color: white;
+    height: 10vh;
+    width: 10vw;
+    margin-left: 60%;
+    margin-bottom: 15%;
+    border-radius: 5px 5px 0px 5px;
+    text-align: center;
+}
+
+#abs1 {
+    position: absolute;
+    height: 400px;
+    width: 3%;
+    margin-top: 17%;
+    margin-left: 82.5%;
+    border-left: 25px solid transparent;
+    border-right: 0px solid transparent;
+    border-top: 15px solid white;
+}
+
+
+
+
+
+
+@media only screen and (max-width: 375px) {
+    body {
+        background-image: url("../../images/bg-desktop.png");
+    }
+
+    #s1 {
+        display: flex;
+        flex-direction: column;
+    }
+    #d1{
+        width: 70vw;
+    }
+    #abs{
+        height: 10vh;
+        width: 30vw;
+        margin-top: 130%;
+        margin-right: 55%;
+    }
+    #abs1{
+        opacity: 0;
+    }
+    #d2{
+        width: 70vw;
+        margin-top: 10%;
+    }
+    #file{
+        width: 100%;
+    }
+    #sp1{
+        margin-left: 40vw;
+    }
+}
